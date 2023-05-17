@@ -1,0 +1,66 @@
+body {
+    background-color: #676767;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #a5a5a5 12%, transparent 12.5%, transparent 87%, #a5a5a5 87.5%, #a5a5a5), linear-gradient(150deg, #a5a5a5 12%, transparent 12.5%, transparent 87%, #a5a5a5 87.5%, #a5a5a5), linear-gradient(30deg, #a5a5a5 12%, transparent 12.5%, transparent 87%, #a5a5a5 87.5%, #a5a5a5), linear-gradient(150deg, #a5a5a5 12%, transparent 12.5%, transparent 87%, #a5a5a5 87.5%, #a5a5a5), linear-gradient(60deg, #a5a5a577 25%, transparent 25.5%, transparent 75%, #a5a5a577 75%, #a5a5a577), linear-gradient(60deg, #a5a5a577 25%, transparent 25.5%, transparent 75%, #a5a5a577 75%, #a5a5a577);
+    background-size: 48px 84px;
+    background-position: 0 0, 0 0, 24px 42px, 24px 42px, 0 0, 24px 42px;
+}
+/*barra de navegacion*/
+nav {
+    z-index: 1;
+    top: 5%;
+    right: 0;
+    left: 0;
+    background-color: #292929;
+    overflow: hidden;
+    position: absolute;
+    width: 50%;
+    display: table;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    /*border-radius: 50px;*/
+}
+nav a {
+    position: relative;
+    width: 25%;
+    display: table-cell;
+    text-align:center;
+    color: #949494;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    transition: 0.2s ease color;
+}
+nav a:hover {
+    color: #fff;
+}
+#indicador {
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    width: 25%;
+    height: 2.5px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 0.2s ease left;
+}
+nav a:hover:before,
+nav a:hover:after {
+    transform: scale(1);
+}
+nav a:nth-child(1):hover ~ #indicador {
+    background: linear-gradient(130deg, yellow, red);
+}
+nav a:nth-child(2):hover ~ #indicador {
+    left: 25%;
+    background: linear-gradient(130deg, #00e2ff, #89ff00);
+}
+nav a:nth-child(3):hover ~ #indicador {
+    left: 50%;
+    background: linear-gradient(130deg, purple, palevioletred);
+}
+nav a:nth-child(4):hover ~ #indicador {
+    left: 75%;
+    background: linear-gradient(130deg, white, orange);
+}
