@@ -1,0 +1,44 @@
+/*banner*/
+.banner {
+    padding: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Hack, monospace;
+    text-align: center;
+    /*background-color: #292929;
+    border-radius: 25px;*/
+    background: rgba( 0, 0, 0, 0.5 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+
+}
+.banner div {
+    font-size: 2.5rem;
+    color: white;
+}
+.banner a {
+    margin: 0;
+    font-size: 5rem;
+    color: white;
+
+
+    position: relative;
+    display: inline-block;
+    font-weight: 800;
+    
+    overflow: hidden;
+    background: linear-gradient(to right,rgb(0, 255, 100),rgb(0, 255, 100) 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none; 
+}
+a:hover {
+    background-position: 0 100%;
+}

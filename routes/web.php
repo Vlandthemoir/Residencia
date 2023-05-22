@@ -15,4 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('WEB.home');
-});
+})->name('WEB.home');
+Route::get('/cursos', function () {
+    return view('WEB.cursos');
+})->name('WEB.cursos');
