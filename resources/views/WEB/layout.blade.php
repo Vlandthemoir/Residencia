@@ -9,9 +9,9 @@
 	</head>
 	<body>
         <nav>
-            <a href="{{route('WEB.home')}}">Inicio</a>
+            <!--<a href="{{route('WEB.home')}}">Inicio</a>-->
             <a href="{{route('WEB.cursos')}}">Cursos</a>
-            <a href="">Rutas</a>
+            <a href="{{route('WEB.rutas')}}">Rutas</a>
             <a href="">Contacto</a>
             <div id="indicador"></div>
         </nav>

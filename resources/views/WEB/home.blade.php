@@ -10,7 +10,7 @@ Home
 @section('content')
 <div class="banner">
     <div>Una nueva forma de aprender</div>
-        <a href="/">000 000</a>
+        <a href="/">ATHENA</a>
     <div>Unica y personalizada para ti</div>
 </div>
 @endsection

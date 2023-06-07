@@ -26,14 +26,15 @@ Cursos
         </div>
     </div>
     <div class="cards-container">
+        @foreach($objetos as $item)
         <div class="card">
             <a href="#"></a>
-            <img src='https://i.pinimg.com/564x/87/83/10/878310ea2724654acc7c44181676bab5.jpg' alt=''>
+            <img src='https://images.pexels.com/photos/3729557/pexels-photo-3729557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt=''>
             <div class="card-overlay">
                 <div class="title">
-                    <h3>Tipos de datos</h3>
+                    <h3>{{$item->nombre}}</h3>
                     <p>
-                        Programacion avanzada
+                        {{$item->nombre_conectar}}
                     </p>
                 </div>
                 <div class="card-body">
@@ -41,141 +42,7 @@ Cursos
                 </div>
             </div>
         </div>
-        <div class="card">
-            <a href="#"></a>
-            <img src='https://i.pinimg.com/564x/87/83/10/878310ea2724654acc7c44181676bab5.jpg' alt=''>
-            <div class="card-overlay">
-                <div class="title">
-                    <h3>Tipos de datos</h3>
-                    <p>
-                        Programacion avanzada
-                    </p>
-                </div>
-                <div class="card-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit velit nec libero efficitur, sed blandit mi gravida. Curabitur a ante vitae mi dapibus rhoncus sit amet quis sapien.</p>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <a href="#"></a>
-            <img src='https://i.pinimg.com/564x/87/83/10/878310ea2724654acc7c44181676bab5.jpg' alt=''>
-            <div class="card-overlay">
-                <div class="title">
-                    <h3>Tipos de datos</h3>
-                    <p>
-                        Programacion avanzada
-                    </p>
-                </div>
-                <div class="card-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit velit nec libero efficitur, sed blandit mi gravida. Curabitur a ante vitae mi dapibus rhoncus sit amet quis sapien.</p>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <a href="#"></a>
-            <img src='https://i.pinimg.com/564x/87/83/10/878310ea2724654acc7c44181676bab5.jpg' alt=''>
-            <div class="card-overlay">
-                <div class="title">
-                    <h3>Tipos de datos</h3>
-                    <p>
-                        Programacion avanzada
-                    </p>
-                </div>
-                <div class="card-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit velit nec libero efficitur, sed blandit mi gravida. Curabitur a ante vitae mi dapibus rhoncus sit amet quis sapien.</p>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <a href="#"></a>
-            <img src='https://i.pinimg.com/564x/87/83/10/878310ea2724654acc7c44181676bab5.jpg' alt=''>
-            <div class="card-overlay">
-                <div class="title">
-                    <h3>Tipos de datos</h3>
-                    <p>
-                        Programacion avanzada
-                    </p>
-                </div>
-                <div class="card-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit velit nec libero efficitur, sed blandit mi gravida. Curabitur a ante vitae mi dapibus rhoncus sit amet quis sapien.</p>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <a href="#"></a>
-            <img src='https://i.pinimg.com/564x/87/83/10/878310ea2724654acc7c44181676bab5.jpg' alt=''>
-            <div class="card-overlay">
-                <div class="title">
-                    <h3>Tipos de datos</h3>
-                    <p>
-                        Programacion avanzada
-                    </p>
-                </div>
-                <div class="card-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit velit nec libero efficitur, sed blandit mi gravida. Curabitur a ante vitae mi dapibus rhoncus sit amet quis sapien.</p>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <a href="#"></a>
-            <img src='https://i.pinimg.com/564x/87/83/10/878310ea2724654acc7c44181676bab5.jpg' alt=''>
-            <div class="card-overlay">
-                <div class="title">
-                    <h3>Tipos de datos</h3>
-                    <p>
-                        Programacion avanzada
-                    </p>
-                </div>
-                <div class="card-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit velit nec libero efficitur, sed blandit mi gravida. Curabitur a ante vitae mi dapibus rhoncus sit amet quis sapien.</p>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <a href="#"></a>
-            <img src='https://i.pinimg.com/564x/87/83/10/878310ea2724654acc7c44181676bab5.jpg' alt=''>
-            <div class="card-overlay">
-                <div class="title">
-                    <h3>Tipos de datos</h3>
-                    <p>
-                        Programacion avanzada
-                    </p>
-                </div>
-                <div class="card-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit velit nec libero efficitur, sed blandit mi gravida. Curabitur a ante vitae mi dapibus rhoncus sit amet quis sapien.</p>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <a href="#"></a>
-            <img src='https://i.pinimg.com/564x/87/83/10/878310ea2724654acc7c44181676bab5.jpg' alt=''>
-            <div class="card-overlay">
-                <div class="title">
-                    <h3>Tipos de datos</h3>
-                    <p>
-                        Programacion avanzada
-                    </p>
-                </div>
-                <div class="card-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit velit nec libero efficitur, sed blandit mi gravida. Curabitur a ante vitae mi dapibus rhoncus sit amet quis sapien.</p>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <a href="#"></a>
-            <img src='https://i.pinimg.com/564x/87/83/10/878310ea2724654acc7c44181676bab5.jpg' alt=''>
-            <div class="card-overlay">
-                <div class="title">
-                    <h3>Tipos de datos</h3>
-                    <p>
-                        Programacion avanzada
-                    </p>
-                </div>
-                <div class="card-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit velit nec libero efficitur, sed blandit mi gravida. Curabitur a ante vitae mi dapibus rhoncus sit amet quis sapien.</p>
-                </div>
-            </div>
-        </div>
+        @endforeach
     </div>
 </div>
 
